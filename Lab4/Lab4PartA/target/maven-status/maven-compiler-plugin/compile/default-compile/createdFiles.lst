@@ -1,0 +1,3 @@
+domain\Customer.class
+repository\CustomerRepository.class
+app\Application.class
