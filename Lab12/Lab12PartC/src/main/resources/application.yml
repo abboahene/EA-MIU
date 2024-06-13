@@ -1,0 +1,31 @@
+application:
+  name: MyApplication
+  version: 1.0.0
+  server:
+    url: http://localhost:8080
+    name: LocalServer
+  user:
+    firstname: John
+    lastname: Doe
+    username: johndoe
+    password: secretpassword
+  countries:
+    - United States
+    - Canada
+    - United Kingdom
+    - Australia
+    - Germany
+    - France
+    - Japan
+
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+logging:
+  level:
+    root: ERROR
+    org:
+      springframework: ERROR

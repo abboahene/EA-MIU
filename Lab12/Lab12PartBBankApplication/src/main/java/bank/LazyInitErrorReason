@@ -1,0 +1,4 @@
+When we add @Transactional we don't need Eager loading because
+the retrieval of the Account and it's related entities are done within the
+same transaction and therefore with the same Entity Manager and Persistence Context.
+This means the Account object will be available when we request for the related lazy objects.
